@@ -15,10 +15,14 @@ This lab was conducted to identify active hosts and analyse open ports in a cont
 ## 3. Scan Summary
 
 nmap -sS -sV -O 192.168.56.3
+
 Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-28 10:07 EDT
 Nmap scan report for 192.168.56.3
+
 Host is up (0.0013s latency).
+
 Not shown: 977 closed tcp ports (reset)
+
 PORT     STATE SERVICE     VERSION
 21/tcp   open  ftp         vsftpd 2.3.4
 22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
@@ -43,12 +47,19 @@ PORT     STATE SERVICE     VERSION
 6667/tcp open  irc         UnrealIRCd
 8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
 8180/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+
 MAC Address: 08:00:27:8D:81:3D (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
 Device type: general purpose
+
 Running: Linux 2.6.X
+
 OS CPE: cpe:/o:linux:linux_kernel:2.6
+
 OS details: Linux 2.6.9 - 2.6.33
+
 Network Distance: 1 hop
+
 Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
