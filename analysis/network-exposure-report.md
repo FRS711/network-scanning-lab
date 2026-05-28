@@ -100,5 +100,5 @@ File sharing service exposed
 Common attack surface in legacy systems
 High-risk due to known vulnerabilities in outdated SMB implementations
 
-6. Conclusion
+## 6. Conclusion
 This system demonstrates multiple exposed services in a controlled environment, suitable for security testing and learning purposes.
